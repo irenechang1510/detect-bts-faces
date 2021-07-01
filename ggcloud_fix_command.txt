@@ -1,0 +1,62 @@
+gcloud ml-engine jobs submit training train-detect-bts-face --job-dir=gs://me-learning-ggcloud-first-time-ever/train --packages dist/object_detection-0.1.tar.gz,slim/dist/slim-0.1.tar.gz --module-name object_detection.train --region us-east4 --config object_detection/samples/cloud/cloud.yml --runtime-version=1.4 --train_dir=me-learning-ggcloud-first-time-ever/train  --pipeline_config_path=me-learning-ggcloud-first-time-ever/data/ssd_mobilenet_v1_coco.config
+
+
+gcloud ml-engine jobs submit training detect-bts-face \
+	--runtime-version 1.12 \
+    --job-dir=gs://me-learning-ggcloud-first-time-ever/train \
+    --packages dist/object_detection-0.1.tar.gz,slim/dist/slim-0.1.tar.gz \
+    --module-name object_detection.train \
+    --region us-east4 \
+    --config object_detection/samples/cloud/cloud.yml \
+    --runtime-version=1.4 \
+    -- \
+    --train_dir=me-learning-ggcloud-first-time-ever/train \
+    --pipeline_config_path=me-learning-ggcloud-first-time-ever/data/ssd_mobilenet_v1_coco.config
+
+
+
+gcloud ai-platform jobs submit training detect_bts_faces19 \
+    --runtime-version 2.1 \
+    --python-version 3.5 \
+    --job-dir=gs://me-learning-ggcloud-first-time-ever/train \
+    --package-path ./object_detection \
+    --module-name object_detection.model_main_tf2 \
+    --region us-east4 \
+    -- \
+    --model_dir=gs://me-learning-ggcloud-first-time-ever/train \
+    --pipeline_config_path=gs://me-learning-ggcloud-first-time-ever/data/pipeline.config
+
+
+gcloud ai-platform jobs submit training detect_bts_face_eval_5 \
+--runtime-version 2.1 \
+--python-version 3.5 \
+--job-dir=gs://me-learning-ggcloud-first-time-ever/train \
+--package-path ./object_detection \
+--module-name object_detection.model_main_tf2 \
+--region us-east4 \
+-- \
+--model_dir=gs://me-learning-ggcloud-first-time-ever/eval \
+--pipeline_config_path=gs://me-learning-ggcloud-first-time-ever/data/pipeline.config \
+--checkpoint_dir=gs://me-learning-ggcloud-first-time-ever/train
+
+
+
+python convert_to_tfrecord.py --output_path=train.record \ --images_dir=trainset/ --labels_dir=train-label/
+
+
+
+
+python model_main_tf2.py --model_dir=models/my_ssd_resnet50_v1_fpn --pipeline_config_path=models/my_ssd_resnet50_v1_fpn/pipeline.config
+
+
+
+gcloud ai-platform jobs submit training detect_bts_faces1 \
+    --runtime-version 2.1 \
+    --python-version 3.5 \
+    --job-dir=gs://the-same-bucket-but-for-tuning/train \
+    --package-path ./object_detection \
+    --module-name object_detection.model_main_tf2 \
+    --region us-east4 \
+    -- \
+    --model_dir=gs://the-same-bucket-but-for-tuning/train \
+    --pipeline_config_path=gs://the-same-bucket-but-for-tuning/data/pipeline.config
