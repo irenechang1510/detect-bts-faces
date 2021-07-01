@@ -1,0 +1,50 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>Here_s What Each Of The BTS Members....jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/Here_s What Each Of The BTS Members....jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1143</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>v</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>42</xmin>
+			<ymin>12</ymin>
+			<xmax>298</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>jin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>420</xmin>
+			<ymin>10</ymin>
+			<xmax>717</xmax>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>jungkook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>802</xmin>
+			<ymin>7</ymin>
+			<xmax>1113</xmax>
+			<ymax>347</ymax>
+		</bndbox>
+	</object>
+</annotation>

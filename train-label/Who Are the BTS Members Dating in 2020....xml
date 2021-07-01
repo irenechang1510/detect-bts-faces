@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>Who Are the BTS Members Dating in 2020....jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/Who Are the BTS Members Dating in 2020....jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>448</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>82</xmin>
+			<ymin>16</ymin>
+			<xmax>345</xmax>
+			<ymax>295</ymax>
+		</bndbox>
+	</object>
+</annotation>

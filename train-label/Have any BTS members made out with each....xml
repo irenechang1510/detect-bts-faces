@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>Have any BTS members made out with each....jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/Have any BTS members made out with each....jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>368</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>v</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>137</ymin>
+			<xmax>205</xmax>
+			<ymax>277</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>jungkook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>172</xmin>
+			<ymin>46</ymin>
+			<xmax>302</xmax>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+</annotation>

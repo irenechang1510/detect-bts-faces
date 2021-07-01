@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>BTS members — real names_ age_ height....jpeg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/BTS members — real names_ age_ height....jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>495</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>suga</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>63</xmin>
+			<ymin>18</ymin>
+			<xmax>365</xmax>
+			<ymax>364</ymax>
+		</bndbox>
+	</object>
+</annotation>

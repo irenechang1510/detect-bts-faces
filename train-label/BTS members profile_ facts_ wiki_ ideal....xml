@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>BTS members profile_ facts_ wiki_ ideal....jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/BTS members profile_ facts_ wiki_ ideal....jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>358</width>
+		<height>386</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jhope</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>99</xmin>
+			<ymin>19</ymin>
+			<xmax>238</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+</annotation>

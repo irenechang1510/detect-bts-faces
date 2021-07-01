@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>BTS Members Profile_ BTS Ideal Type and....jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/BTS Members Profile_ BTS Ideal Type and....jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>375</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>41</ymin>
+			<xmax>236</xmax>
+			<ymax>255</ymax>
+		</bndbox>
+	</object>
+</annotation>

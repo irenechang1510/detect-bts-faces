@@ -1,0 +1,38 @@
+<annotation>
+	<folder>test-data</folder>
+	<filename>ARMY Twitter can_t help but speculate....png</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/test-data/ARMY Twitter can_t help but speculate....png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>523</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jimin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>24</ymin>
+			<xmax>279</xmax>
+			<ymax>404</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>v</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>292</xmin>
+			<ymin>12</ymin>
+			<xmax>523</xmax>
+			<ymax>341</ymax>
+		</bndbox>
+	</object>
+</annotation>

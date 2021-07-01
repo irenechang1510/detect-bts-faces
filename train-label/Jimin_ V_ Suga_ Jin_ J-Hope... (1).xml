@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>Jimin_ V_ Suga_ Jin_ J-Hope... (1).jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/Jimin_ V_ Suga_ Jin_ J-Hope... (1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>478</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144</xmin>
+			<ymin>41</ymin>
+			<xmax>339</xmax>
+			<ymax>319</ymax>
+		</bndbox>
+	</object>
+</annotation>

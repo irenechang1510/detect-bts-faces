@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train-data</folder>
+	<filename>Ranking All 7 BTS Members _ Vote For....jpg</filename>
+	<path>/Users/irenechang/Desktop/PORTFOLIO/Summer 2021/detect-bts-faces/train-data/Ranking All 7 BTS Members _ Vote For....jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>375</width>
+		<height>576</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>jimin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>26</ymin>
+			<xmax>290</xmax>
+			<ymax>342</ymax>
+		</bndbox>
+	</object>
+</annotation>
