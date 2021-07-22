@@ -27,6 +27,8 @@ Being a newbie in this Object Detection playground, I downloaded only 200 images
 
 ![](https://github.com/irenechang1510/detect-bts-faces/blob/main/images/result.png)
 
+*_The model only mislabels RM as Jhope!_*
+
 At this point, my model was able to tell some members of BTS apart in new images, but on average, it still makes some really bad mislabelling. Thus, I go on to explore the mistakes the model usually makes, and explore different ways to improve it. The most obvious problem is that the model performs really bad if the picture doesn't have all 7 members.
 
 ## 2nd attempt: More individual/subunit photos and Faster-RCNN Resnet
@@ -51,5 +53,7 @@ I added around 200 more images in total of subunit/solo photos into my dataset a
 The Resnet50 model also performs better, though just by a little. Despite having similar precision and still making mistakes on a lot of new images, one improvement when more individuals photos are included is that now the model labels pictures with fewer than 7 members more accurately.
 
 ![](https://github.com/irenechang1510/detect-bts-faces/blob/main/images/result2.png)
+
+*_The model correctly labels both of them!_*
 
 For the next step, I'm going to increase the dataset by downloading more images as well as by employing some data augmentation techniques
