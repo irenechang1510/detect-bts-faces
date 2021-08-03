@@ -1,4 +1,4 @@
-# Detect BTS faces (ongoing)
+# Detect BTS faces
 
 This project is inspired by: https://towardsdatascience.com/build-a-taylor-swift-detector-with-the-tensorflow-object-detection-api-ml-engine-and-swift-82707f5b4a56
 
@@ -57,3 +57,7 @@ The Resnet50 model also performs better, though just by a little. Despite having
 *_The model correctly labels both of them!_*
 
 For the next step, I'm going to increase the dataset by downloading more images as well as by employing some data augmentation techniques
+
+## 3rd attempt: increase the number of images to 2000+ images
+
+I added more images to improve the model. It's said that each class should have at least 1000 images to achieve the optimal results. Due to the limitation in time, I could only manage to obtain around 300+ images for each member, plus a few hundred group/subunit images. Contrary to what I believed, the model's performance worsens. For the same set of images, it's unable to label the images as correctly. I suspect this is because I included more individual images than group images, so most of the time the model just corrects the weights to one class, rather than all of them, thus the variation between pictures of different members is huge.
