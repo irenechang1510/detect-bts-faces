@@ -10,7 +10,7 @@ Most of the applications I have seen of Tensorflow Object Detection API is recog
 
 Being a newbie in this Object Detection playground, I downloaded only 200 images on this first attempt, and all of these images are group photos. After reading and following a lot of examples on this Object Detection API, and many failed attempts later, I was able to set the training in motion. The first model that I used is SSD Resnet50, which yielded an okay result, but it did poorly on new images. After some quick research, I found out the problem is that my labels in the images weren't tight enough. This introduced a lot of noise into the model, which explains why it performed not really well. After re-labeling the faces, making the pounding boxes to fit just right the faces, I improved the metrics to:
 
-| Metrics |Results | 
+| Metrics |Results |  
 | :---: | :---: |
 | Average Precision  (AP) | @[ IoU=0.50:0.95 - area=   all - maxDets=100 ] = 0.593 |
 | Average Precision  (AP) | @[ IoU=0.50      - area=   all - maxDets=100 ] = 0.926 |
