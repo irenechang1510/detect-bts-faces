@@ -1,5 +1,5 @@
 # Detect BTS faces
-
+ 
 This project is inspired by: https://towardsdatascience.com/build-a-taylor-swift-detector-with-the-tensorflow-object-detection-api-ml-engine-and-swift-82707f5b4a56
 
 ![](https://github.com/irenechang1510/detect-bts-faces/blob/main/images/BTS%20Announced%20as%20Louis%20Vuitton....jpg)
